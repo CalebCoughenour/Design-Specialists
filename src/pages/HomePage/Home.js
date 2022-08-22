@@ -1,9 +1,10 @@
 import '../../App.css';
+import { PhotoCarousel } from '../../components/index';
 
 const Home = () => {
   return (
     <>
-      <h1>Hello Worlds!</h1>
+      <PhotoCarousel />
     </>
   )
 }
