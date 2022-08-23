@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 
 export const CardLinkSec = styled.div`
-  padding: 200px 0;
+  padding: 180px 0;
   background-color: #aeaeae91;
 
   @media screen and (max-width: 1000px) {
-    padding: 180px 0;
+    padding: 150px 0;
   }
 `;
 
@@ -18,7 +18,7 @@ export const CardOverlay = styled.div`
   width: 100%;
   height: 100%;
   backdrop-filter: blur(2px);
-  
+  background: rgba(0, 0, 0, .6);
 `;
 
 export const CardText = styled.div`
@@ -32,6 +32,13 @@ export const CardText = styled.div`
   align-items: center;
   text-align: center;
   font-family: Georgia, serif;
+  color: #fff;
+
+  @media screen and (min-width: 1200px) {
+    &:hover {
+      color: lightgray;
+    } 
+  }
 `;
 
 export const CardTitle =  styled.h1`
