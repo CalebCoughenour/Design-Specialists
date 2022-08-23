@@ -18,6 +18,14 @@
   width: 80%;
 }
 
+.bottom-card-link-section-hr {
+  margin: auto;
+  margin-top: 80px;
+  height: 1px;
+  background: #dddddd;
+  width: 80%;
+}
+
 @media screen and (min-width: 1400px) {
   .furniture-detail-card:hover{
     transform: scale(1.06);

@@ -49,5 +49,25 @@ export const CardTitle =  styled.h1`
 export const CardSubText = styled.p`
   margin: 0.25em 10px 5px 10px;
   font-size: 1.2em;
-  
+`
+
+export const CardButton = styled.button`
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #fff;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, .8);
+    transition: background-color .2s ease-in-out
+  }
+
+@media screen and (max-width: 960px) {
+  width: 100%;
+}
 `
