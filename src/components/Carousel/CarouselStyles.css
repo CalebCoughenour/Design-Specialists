@@ -1,6 +1,7 @@
 .carousel {
   display: flex;
   justify-content: center;
+  background-color: #aeaeae91;
 }
 
 .carousel .slide {
@@ -19,43 +20,45 @@
   width: auto;
 }
 
+
+
 @media screen and (max-width: 1200px) {
-  .carousel{
-    height: 90vh;
+  .carousel .slide{
+    height: 80vh;
   }
 
   .carousel .slide img {
-   margin: 10vh 0 10vh 0;
+   margin: 5vh 0 5vh 0;
    width: 100vw; 
   }
 }
 
 @media screen and (max-width: 900px) {
-  .carousel{
-    height: 80vh;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .carousel{
+  .carousel .slide{
     height: 70vh;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .carousel{
+@media screen and (max-width: 750px) {
+  .carousel .slide{
     height: 60vh;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .carousel{
+@media screen and (max-width: 650px) {
+  .carousel .slide{
     height: 50vh;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .carousel{
+@media screen and (max-width: 500px) {
+  .carousel .slide{
     height: 40vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .carousel .slide{
+    height: 30vh;
   }
 } 
