@@ -36,6 +36,7 @@ export const CardText = styled.div`
 
   @media screen and (min-width: 1200px) {
     &:hover {
+      transition: color .3s ease-in-out;
       color: lightgray;
     } 
   }

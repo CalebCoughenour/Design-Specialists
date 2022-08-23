@@ -15,3 +15,8 @@ export const homeCardObjOne = {
   thirdCardSubText: 'Bedroom, Living Room, Dining Room, Etc.',
   thirdCardButtonText: 'BROWSE'
 };
+
+export const advertLinkObj = {
+  advertSrc: require('../../images/couchjpg.png'),
+  advertAlt: 'A banner displaying a couch'
+};
