@@ -20,7 +20,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
                   <CardTitle>{firstCardTitle}</CardTitle>
                   <CardSubText>{firstCardSubText}</CardSubText>
                   <Link to="#">
-                    <CardButton>
+                    <CardButton className='card-link-button'>
                       {firstCardButtonText}
                     </CardButton>
                   </Link>
@@ -35,7 +35,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
                   <CardTitle>{secondCardTitle}</CardTitle>
                   <CardSubText>{secondCardSubText}</CardSubText>
                   <Link to="#">
-                    <CardButton>
+                    <CardButton className='card-link-button'>
                       {secondCardButtonText}
                     </CardButton>
                   </Link>
