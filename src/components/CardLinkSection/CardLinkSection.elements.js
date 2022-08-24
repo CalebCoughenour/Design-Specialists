@@ -65,7 +65,7 @@ export const CardButton = styled.button`
 
   &:hover {
     background-color: rgba(0, 0, 0, .8);
-    transition: background-color .2s ease-in-out
+    transition: background-color .2s ease-in-out;
   }
 
 @media screen and (max-width: 960px) {

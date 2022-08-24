@@ -1,12 +1,18 @@
 .furniture-detail-card {
   margin: 5px 5px 5px 5px;
   z-index: 1;
+  border: 1px solid black;
+}
+
+.furniture-detail-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .furniture-detail-card-img {
   z-index: -1;
   width: 100%;
   height: 100%;
+  border: 1px solid black;
 }
 
 .card-link-section-hr {
@@ -29,7 +35,7 @@
 @media screen and (min-width: 1400px) {
   .furniture-detail-card:hover{
     transform: scale(1.06);
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
   }
 
 }
