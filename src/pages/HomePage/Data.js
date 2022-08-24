@@ -4,6 +4,7 @@ export const homeCardObjOne = {
   firstCardTitle: 'Designs',
   firstCardSubText: 'Take A Look At All The Different Styles',
   firstCardButtonText: 'BROWSE',
+  firstLink: '/designs',
   secondCardImg: 'https://images.pexels.com/photos/982614/pexels-photo-982614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   secondCardImgAlt: 'blurred image of furniture',
   secondCardTitle: 'Accessories',
@@ -19,5 +20,6 @@ export const homeCardObjOne = {
 export const advertLinkObj = {
   advertAlt: 'A banner displaying a couch', 
   advertHeading: 'Choose From Our Carefully Selected Designs',
-  bannerText: 'View All Our Designs'
+  bannerText: 'View All Our Designs',
+  advertImg: 'src/images/couch-banner.webp'
 };

@@ -4,13 +4,13 @@ import { Container, Card } from 'react-bootstrap';
 import { AdvertSection, AdvertSectionHeading, Img, ImgWrapper, BannerText, BannerTextWrapper } from './AdvertLinkSection.elements';
 import photo from '../../images/couch-banner.webp';
 
-const AdvertLinkSection = ({advertAlt, advertHeading, bannerText}) => {
+const AdvertLinkSection = ({advertAlt, advertHeading, bannerText, advertImg}) => {
   return(
     <>
       <AdvertSection>
         <Container>
           <AdvertSectionHeading>{advertHeading}</AdvertSectionHeading>
-          <Link to="#">
+          <Link to="/designs">
             <ImgWrapper>
               <Card>
                 <Img src={photo} alt={advertAlt}/>
