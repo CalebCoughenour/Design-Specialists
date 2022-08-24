@@ -11,8 +11,11 @@ function TopNav() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/designs">Designs</Nav.Link>
+            <Nav.Link href="#pricing">Room Sets</Nav.Link>
+            <Nav.Link href="#pricing">Accessories</Nav.Link>
+            <Nav.Link href="#pricing">About Us</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
