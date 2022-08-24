@@ -4,22 +4,21 @@ import { Card, Col, Row, Container } from 'react-bootstrap';
 import { CardOptionSect, CardOverlay, CardText, CardTitle, CardSubText, CardButton, CardOptionTitle } from './CardOptionSection.elements';
 import './CardOptionSectionStyles.css';
 
-const CardOptionSection = () => {
+const CardOptionSection = ({ optionCardTitle, firstCardImg, firstCardAlt, firstCardTitle, firstCardLink, secondCardImg, secondCardAlt, secondCardTitle,  secondCardLink, thirdCardImg, thirdCardAlt, thirdCardTitle, thirdCardLink, fourthCardImg, fourthCardAlt, fourthCardTitle,  fourthCardLink, fifthCardImg, fifthCardAlt, fifthCardTitle, fifthCardLink, sixthCardImg, sixthCardAlt, sixthCardTitle, sixthCardLink }) => {
   return(
     <>
       <CardOptionSect>
-        <CardOptionTitle>Designs</CardOptionTitle>
+        <CardOptionTitle>{optionCardTitle}</CardOptionTitle>
         <hr className="option-section-hr" />
         <Container>
           <Row>
           <Col lg={true}>
               <Card className='option-card'>
                 <CardOverlay />
-                <Card.Img src='https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='photo' className='option-card-img' />
+                <Card.Img src={firstCardImg} alt={firstCardAlt} className='option-card-img' />
                 <CardText>
-                  <CardTitle>Hello</CardTitle>
-                  <CardSubText>Hello</CardSubText>
-                  <Link to="#">
+                  <CardTitle>{firstCardTitle}</CardTitle>
+                  <Link to={firstCardLink}>
                     <CardButton className='option-button'>
                       VIEW
                     </CardButton>
@@ -30,26 +29,24 @@ const CardOptionSection = () => {
             <Col lg={true}>
               <Card className='option-card'>
                 <CardOverlay />
-                <Card.Img src='https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='photo' className='option-card-img' />
+                <Card.Img src={secondCardImg} alt={secondCardAlt} className='option-card-img' />
                 <CardText>
-                  <CardTitle>Hello</CardTitle>
-                  <CardSubText>Hello</CardSubText>
-                  <Link to="#">
+                  <CardTitle>{secondCardTitle}</CardTitle>
+                  <Link to={secondCardLink}>
                     <CardButton className='option-button'>
                       VIEW
                     </CardButton>
                   </Link>
                 </CardText>
               </Card>
-            </Col>
+            </Col>            
             <Col lg={true}>
               <Card className='option-card'>
                 <CardOverlay />
-                <Card.Img src='https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='photo' className='option-card-img' />
+                <Card.Img src={thirdCardImg} alt={thirdCardAlt} className='option-card-img' />
                 <CardText>
-                  <CardTitle>Hello</CardTitle>
-                  <CardSubText>Hello</CardSubText>
-                  <Link to="#">
+                  <CardTitle>{thirdCardTitle}</CardTitle>
+                  <Link to={thirdCardLink}>
                     <CardButton className='option-button'>
                       VIEW
                     </CardButton>
@@ -59,42 +56,41 @@ const CardOptionSection = () => {
             </Col>
           </Row>
           <Row>
-          <Col lg={true}>
+            <Col lg={true}>
               <Card className='option-card'>
                 <CardOverlay />
-                <Card.Img src='https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='photo' className='option-card-img' />
+                <Card.Img src={fourthCardImg} alt={fourthCardAlt} className='option-card-img' />
                 <CardText>
-                  <CardTitle>Hello</CardTitle>
-                  <CardSubText>Hello</CardSubText>
-                  <Link to="#">
+                  <CardTitle>{fourthCardTitle}</CardTitle>
+                  <Link to={fourthCardLink}>
                     <CardButton className='option-button'>
                       VIEW
                     </CardButton>
                   </Link>
                 </CardText>
               </Card>
-            </Col><Col lg={true}>
+            </Col>
+            <Col lg={true}>
               <Card className='option-card'>
                 <CardOverlay />
-                <Card.Img src='https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='photo' className='option-card-img' />
+                <Card.Img src={fifthCardImg} alt={fifthCardAlt} className='option-card-img' />
                 <CardText>
-                  <CardTitle>Hello</CardTitle>
-                  <CardSubText>Hello</CardSubText>
-                  <Link to="#">
+                  <CardTitle>{fifthCardTitle}</CardTitle>
+                  <Link to={fifthCardLink}>
                     <CardButton className='option-button'>
                       VIEW
                     </CardButton>
                   </Link>
                 </CardText>
               </Card>
-            </Col><Col lg={true}>
+            </Col>
+            <Col lg={true}>
               <Card className='option-card'>
                 <CardOverlay />
-                <Card.Img src='https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='photo' className='option-card-img' />
+                <Card.Img src={sixthCardImg} alt={sixthCardAlt} className='option-card-img' />
                 <CardText>
-                  <CardTitle>Hello</CardTitle>
-                  <CardSubText>Hello</CardSubText>
-                  <Link to="#">
+                  <CardTitle>{sixthCardTitle}</CardTitle>
+                  <Link to={sixthCardLink}>
                     <CardButton className='option-button'>
                       VIEW
                     </CardButton>

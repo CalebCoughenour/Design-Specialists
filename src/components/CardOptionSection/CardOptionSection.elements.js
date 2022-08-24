@@ -1,12 +1,8 @@
 import styled from "styled-components";
 
 export const CardOptionSect = styled.div`
-  padding: 180px 0;
-  background-color: #aeaeae91;
-
-  @media screen and (max-width: 1000px) {
-    padding: 150px 0;
-  }
+  padding: 100px 0;
+  background-color: #dcdcdc;
 `;
 
 export const CardOptionTitle = styled.h1`
@@ -49,8 +45,8 @@ export const CardText = styled.div`
   }
 `;
 
-export const CardTitle =  styled.h1`
-  font-size: 2em;
+export const CardTitle =  styled.h3`
+  margin-top: 5px;
   font-weight: 900;
 `
 
