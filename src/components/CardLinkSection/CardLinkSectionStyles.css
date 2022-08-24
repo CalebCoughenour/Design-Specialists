@@ -29,6 +29,9 @@
 }
 
 @media screen and (min-width: 992px) {
+
+  /* Hover Effects */
+
   .furniture-detail-card:hover{
     transform: scale(1.06);
     transition: all 0.2s ease-out;

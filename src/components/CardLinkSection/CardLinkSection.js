@@ -12,7 +12,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
         <hr className="card-link-section-hr" />
         <Container>
           <Row>
-            <Col lg={true}>              
+            <Col md={true}>              
               <Card className='furniture-detail-card'>
                 <CardOverlay className='card-overlay'/>
                 <Card.Img className='furniture-detail-card-img' src={firstCardImg} alt={firstCardImgAlt} />
@@ -27,7 +27,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
                 </CardText>
               </Card>
             </Col>
-            <Col lg={true}>
+            <Col md={true}>
               <Card className='furniture-detail-card'>
               <CardOverlay className='card-overlay'/>
                 <Card.Img className='furniture-detail-card-img' src={secondCardImg} alt={secondCardImgAlt} />
@@ -42,7 +42,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
                 </CardText>
               </Card>
             </Col>
-            <Col lg={true}>
+            <Col md={true}>
               <Card className='furniture-detail-card'>
               <CardOverlay className='card-overlay'/>
                 <Card.Img className='furniture-detail-card-img' src={thirdCardImg} alt={thirdCardImgAlt} />
