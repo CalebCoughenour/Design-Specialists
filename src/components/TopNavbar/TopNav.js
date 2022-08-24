@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function TopNav() {
   return (
-    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: '#dcdcdc'}}>
+    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: '#aeaeae91'}}>
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

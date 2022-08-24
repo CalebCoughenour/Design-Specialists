@@ -1,12 +1,11 @@
 .carousel {
   display: flex;
   justify-content: center;
-  background-color: #aeaeae91;
+  background-color: #dcdcdc;;
 }
 
 .carousel .slide {
-  background-color: #aeaeae91;
-  height: 90vh;
+  background-color: #dcdcdc;;
 }
 
 .carousel .slide img {
