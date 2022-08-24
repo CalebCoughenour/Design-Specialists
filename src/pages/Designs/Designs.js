@@ -1,10 +1,10 @@
 import React from 'react';
-import CardLinkSection from '../../components/CardLinkSection/CardLinkSection';
+import { CardOptionSection } from "../../components";
 
 const Designs = () => {
   return (
     <>
-      <CardLinkSection />
+      <CardOptionSection />
     </>
   )
 }

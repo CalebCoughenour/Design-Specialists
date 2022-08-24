@@ -1,0 +1,45 @@
+.option-card {
+  margin: 20px;
+  z-index: 1;
+  border: 1px solid black;
+}
+
+.option-card-img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.option-section-hr {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  height: 1px;
+  background: #dddddd;
+  width: 80%;
+}
+
+.bottom-option-section-hr {
+  margin: auto;
+  margin-top: 80px;
+  height: 1px;
+  background: #dddddd;
+  width: 80%;
+}
+
+@media screen and (min-width: 992px) {
+
+  /* Hover Effects */
+
+  .option-card:hover{
+    transform: scale(1.06);
+    transition: all 0.2s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+
+  .option-button:hover {
+      background-color: rgba(0, 0, 0, .8);
+      transition: background-color .2s ease-in-out;
+  }
+
+}
