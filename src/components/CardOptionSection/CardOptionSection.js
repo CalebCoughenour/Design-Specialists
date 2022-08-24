@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Col, Row, Container } from 'react-bootstrap';
-import { CardOptionSect, CardOverlay, CardText, CardTitle, CardSubText, CardButton, CardOptionTitle } from './CardOptionSection.elements';
+import { CardOptionSect, CardOverlay, CardText, CardTitle, CardButton, CardOptionTitle } from './CardOptionSection.elements';
 import './CardOptionSectionStyles.css';
 
 const CardOptionSection = ({ optionCardTitle, firstCardImg, firstCardAlt, firstCardTitle, firstCardLink, secondCardImg, secondCardAlt, secondCardTitle,  secondCardLink, thirdCardImg, thirdCardAlt, thirdCardTitle, thirdCardLink, fourthCardImg, fourthCardAlt, fourthCardTitle,  fourthCardLink, fifthCardImg, fifthCardAlt, fifthCardTitle, fifthCardLink, sixthCardImg, sixthCardAlt, sixthCardTitle, sixthCardLink }) => {

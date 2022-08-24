@@ -5,7 +5,7 @@ import { CardLinkSec, CardOverlay, CardTitle, CardText, CardSubText, CardButton 
 import './CardLinkSectionStyles.css';
 
 
-const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstCardSubText, firstLink, secondCardImg, secondCardImgAlt, secondCardTitle, secondCardSubText, thirdCardImg, thirdCardImgAlt, thirdCardTitle, thirdCardSubText, firstCardButtonText, secondCardButtonText, thirdCardButtonText }) => {
+const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstCardSubText, firstLink, secondCardImg, secondCardImgAlt, secondCardTitle, secondCardSubText, secondLink, thirdCardImg, thirdCardImgAlt, thirdCardTitle, thirdCardSubText, firstCardButtonText, secondCardButtonText, thirdCardButtonText, thirdLink }) => {
   return (
     <>
       <CardLinkSec>
@@ -34,7 +34,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
                 <CardText>
                   <CardTitle>{secondCardTitle}</CardTitle>
                   <CardSubText>{secondCardSubText}</CardSubText>
-                  <Link to="#">
+                  <Link to={secondLink}>
                     <CardButton className='card-link-button'>
                       {secondCardButtonText}
                     </CardButton>
@@ -49,7 +49,7 @@ const CardLinkSection = ({ firstCardImg, firstCardImgAlt, firstCardTitle, firstC
                 <CardText>
                   <CardTitle>{thirdCardTitle}</CardTitle>
                   <CardSubText>{thirdCardSubText}</CardSubText>
-                  <Link to="#">
+                  <Link to={thirdLink}>
                     <CardButton className='card-link-button'>
                       {thirdCardButtonText}
                     </CardButton>
