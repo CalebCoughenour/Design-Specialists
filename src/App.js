@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import { TopNav, BackToTopButton } from "./components";
+import { TopNav, BackToTopButton, Footer } from "./components";
 import Home from './pages/HomePage/Home';
 import Designs from './pages/Designs/Designs';
 import './App.css';
@@ -16,6 +16,7 @@ function App() {
         <Route path='/designs' exact element={<Designs />} />
         </Routes>
         <BackToTopButton />
+        <Footer />
       </Router>
     </>
   );
