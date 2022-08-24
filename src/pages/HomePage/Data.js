@@ -11,8 +11,8 @@ export const homeCardObjOne = {
   secondCardButtonText: 'BROWSE',
   thirdCardImg: 'https://images.pexels.com/photos/895227/pexels-photo-895227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   thirdCardImgAlt: 'A blurred image of furniture',
-  thirdCardTitle: 'Furniture Sets',
-  thirdCardSubText: 'Bedroom, Living Room, Dining Room, Etc.',
+  thirdCardTitle: 'Sets',
+  thirdCardSubText: 'Bedroom, Living Room, Dining Room',
   thirdCardButtonText: 'BROWSE'
 };
 
