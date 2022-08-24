@@ -1,11 +1,12 @@
 import React from 'react';
-import { CardOptionSection } from "../../components";
-import { setsOptionSectionObj } from './Data'
+import { CardOptionSection, AdvertLinkSection } from "../../components/index.js";
+import { setsOptionSectionObj, advertLinkObj } from './Data'
 
 const Sets = () => {
   return (
     <>
       <CardOptionSection {...setsOptionSectionObj} />
+      <AdvertLinkSection {...advertLinkObj}/>
     </>
   )
 }
