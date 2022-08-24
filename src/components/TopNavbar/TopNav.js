@@ -13,9 +13,9 @@ function TopNav() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/designs">Designs</Nav.Link>
-            <Nav.Link href="#pricing">Sets</Nav.Link>
-            <Nav.Link href="#pricing">Accessories</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
+            <Nav.Link href="/sets">Sets</Nav.Link>
+            <Nav.Link href="/accessories">Accessories</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">

@@ -11,8 +11,8 @@ const Footer = () => {
         <FooterLinksItems>
             <FooterLinkTitle>Services</FooterLinkTitle>
             <FooterLink to='/designs'>Designs</FooterLink>
-            <FooterLink to='/'>Room Sets</FooterLink>
-            <FooterLink to='/'>Accessories</FooterLink>
+            <FooterLink to='/sets'>Room Sets</FooterLink>
+            <FooterLink to='/accessories'>Accessories</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>

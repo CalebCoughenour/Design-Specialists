@@ -10,11 +10,13 @@ export const homeCardObjOne = {
   secondCardTitle: 'Accessories',
   secondCardSubText: 'Pillows, Lighting, Decor & More!',
   secondCardButtonText: 'BROWSE',
+  secondLink: '/accessories',
   thirdCardImg: 'https://images.pexels.com/photos/895227/pexels-photo-895227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   thirdCardImgAlt: 'A blurred image of furniture',
   thirdCardTitle: 'Sets',
   thirdCardSubText: 'Bedroom, Living Room, Dining Room',
-  thirdCardButtonText: 'BROWSE'
+  thirdCardButtonText: 'BROWSE',
+  thirdLink: '/sets'
 };
 
 export const advertLinkObj = {
