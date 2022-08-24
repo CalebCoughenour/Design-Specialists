@@ -4,6 +4,7 @@ import { TopNav, BackToTopButton, Footer, GoToTop } from "./components";
 import Home from './pages/HomePage/Home';
 import Sets from './pages/Sets/Sets';
 import Designs from './pages/Designs/Designs';
+import Accessories from './pages/Accessories/Accessories';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' exact element={<Home />} />
         <Route path='/designs' element={<Designs />} />
         <Route path='/sets' element={<Sets />} />
+        <Route path='/accessories' element={<Accessories />} />
         </Routes>
         <BackToTopButton />
         <Footer />
