@@ -17,6 +17,7 @@ export const homeCardObjOne = {
 };
 
 export const advertLinkObj = {
-  advertSrc: require('../../images/couchjpg.png'),
-  advertAlt: 'A banner displaying a couch'
+  advertAlt: 'A banner displaying a couch', 
+  advertHeading: 'Choose From Our Carefully Selected Designs',
+  bannerText: 'View All Our Designs'
 };

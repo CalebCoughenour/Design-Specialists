@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function TopNav() {
   return (
-    <Navbar collapseOnSelect expand="md">
+    <Navbar collapseOnSelect expand="md" style={{ backgroundColor: '#dcdcdc'}}>
       <Container>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -22,7 +22,7 @@ function TopNav() {
               className="me-2"
               aria-label="Search"
             />
-            <Button>Search</Button>
+            <Button style={{ backgroundColor: 'transparent', border: '1px solid black', color: "#000000"  }}>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

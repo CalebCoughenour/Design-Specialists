@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 
 export const CardLinkSec = styled.div`
-  padding: 180px 0;
+  padding: 150px 0;
   background-color: #aeaeae91;
 
   @media screen and (max-width: 1000px) {
-    padding: 150px 0;
+    padding: 120px 0;
   }
 `;
 
