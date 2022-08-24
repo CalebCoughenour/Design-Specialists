@@ -4,3 +4,4 @@ export { default as BackToTopButton } from './BackToTopButton';
 export { default as Footer } from './Footer/Footer';
 export { default as CardOptionSection } from './CardOptionSection/CardOptionSection';
 export { default as GoToTop } from './GoToTop';
+export { default as AdvertLinkSection } from './AdvertLinkSection/AdvertLinkSection';
