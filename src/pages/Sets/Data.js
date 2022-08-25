@@ -25,9 +25,3 @@ export const setsOptionSectionObj = {
   sixthCardTitle: 'Traditional Sets',
   sixthCardLink: '#'
 };
-
-export const advertLinkObj = {
-  advertAlt: 'A banner displaying a couch', 
-  advertHeading: 'Choose From Our Carefully Selected Designs',
-  bannerText: 'View All Designs'
-};

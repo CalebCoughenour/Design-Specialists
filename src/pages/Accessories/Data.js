@@ -1,3 +1,5 @@
+import photo from '../../images/couch-banner.webp';
+
 export const accessoriesOptionSectionObj = {
   optionCardTitle: 'Accessories',
   firstCardImg: 'https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -24,10 +26,4 @@ export const accessoriesOptionSectionObj = {
   sixthCardAlt: 'photo',
   sixthCardTitle: 'Storage',
   sixthCardLink: '#'
-};
-
-export const advertLinkObj = {
-  advertAlt: 'A banner displaying a couch', 
-  advertHeading: 'Choose From Our Carefully Selected Designs',
-  bannerText: 'View All Designs',
 };

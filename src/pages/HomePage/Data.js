@@ -18,9 +18,3 @@ export const homeCardObjOne = {
   thirdCardButtonText: 'BROWSE',
   thirdLink: '/sets'
 };
-
-export const advertLinkObj = {
-  advertAlt: 'A banner displaying a couch', 
-  advertHeading: 'Choose From Our Carefully Selected Designs',
-  bannerText: 'View All Designs'
-};

@@ -1,12 +1,12 @@
 import React from 'react';
 import { CardOptionSection, AdvertLinkSection } from "../../components";
-import { accessoriesOptionSectionObj, advertLinkObj } from './Data'
+import { accessoriesOptionSectionObj } from './Data'
 
 const Accessories = () => {
   return (
     <>
       <CardOptionSection {...accessoriesOptionSectionObj} />
-      <AdvertLinkSection {...advertLinkObj}/>
+      <AdvertLinkSection />
     </>
   )
 }
