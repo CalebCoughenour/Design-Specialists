@@ -7,12 +7,13 @@ import artImg from '../../images/accessories/art.webp';
 import beddingImg from '../../images/accessories/bedding.webp';
 import curtainsImg from '../../images/accessories/curtains.webp';
 import storageImg from '../../images/accessories/storage.webp';
+import '../../App.css';
 
 const Accessories = () => {
   return (
     <>
       <h1>Accessories</h1>
-      <hr className="option-section-hr" />
+      <hr className="styled-hr" />
       <Container>
         <Row>
           <Col lg={true}>
@@ -34,7 +35,7 @@ const Accessories = () => {
           <Col lg={true}>    
             <CardOptionSection
               cardImg={pillowsImg}
-              cardImgAlt='Three pillows '
+              cardImgAlt='Three pillows on a couch with a blanket draped over one of the pillows'
               cardTitle='Pillows'
               cardPath='/'
             /> 
@@ -44,7 +45,7 @@ const Accessories = () => {
           <Col lg={true}>
             <CardOptionSection
               cardImg={beddingImg}
-              cardImgAlt='alt'
+              cardImgAlt='A bed with a pink and white theme'
               cardTitle='Bedding'
               cardPath='/'
             />
@@ -52,7 +53,7 @@ const Accessories = () => {
           <Col lg={true}>
             <CardOptionSection
               cardImg={curtainsImg}
-              cardImgAlt='alt'
+              cardImgAlt='A window with curtains opened to the side'
               cardTitle='Curtains/Shades'
               cardPath='/'
             />
@@ -60,13 +61,13 @@ const Accessories = () => {
           <Col lg={true}>    
             <CardOptionSection
               cardImg={storageImg}
-              cardImgAlt='alt'
+              cardImgAlt='A living room with cabinents, shelves and drawers used for storage'
               cardTitle='Storage'
               cardPath='/'
             /> 
           </Col>
         </Row>
-        <hr className="bottom-option-section-hr" />
+        <hr className="bottom-styled-hr" />
         <AdvertLinkSection />
       </Container>
     </>

@@ -7,12 +7,13 @@ import retroImg from '../../images/designs/retro.webp';
 import coastalImg from '../../images/designs/coastal.webp';
 import minimalistImg from '../../images/designs/minimalist.webp';
 import traditionalImg from '../../images/designs/traditional.webp';
+import '../../App.css';
 
 const Designs = () => {
   return (
     <>
       <h1>Designs</h1>
-      <hr className='option-section-hr/' />
+      <hr className='styled-hr' />
       <Container>
         <Row>
           <Col lg={true}>
@@ -34,7 +35,7 @@ const Designs = () => {
           <Col lg={true}>
             <CardOptionSection
               cardImg={retroImg}
-              cardImgAlt='String of lights'
+              cardImgAlt='Vinyl record player next to a radio on a storage shelf'
               cardTitle='Retro Designs'
               cardPath='/'
             />
@@ -44,7 +45,7 @@ const Designs = () => {
           <Col lg={true}>
             <CardOptionSection
               cardImg={coastalImg}
-              cardImgAlt='String of lights'
+              cardImgAlt='A living room with a couch, tapestry, two chairs and a center table'
               cardTitle='Coastal Designs'
               cardPath='/'
             />
@@ -52,7 +53,7 @@ const Designs = () => {
           <Col lg={true}>
             <CardOptionSection
               cardImg={minimalistImg}
-              cardImgAlt='String of lights'
+              cardImgAlt='A bedroom with a desk that has a painting above it and a chair in front of it, next to a large bed with drapes'
               cardTitle='Minimalist Designs'
               cardPath='/'
             />
@@ -60,13 +61,14 @@ const Designs = () => {
           <Col lg={true}>
             <CardOptionSection
               cardImg={traditionalImg}
-              cardImgAlt='String of lights'
+              cardImgAlt='A dining room with a large wooden table surrounded by chairs next to an open kitchen'
               cardTitle='Traditional'
               cardPath='/'
             />
           </Col>
         </Row>
       </Container>
+      <hr className='bottom-styled-hr' />
     </>
   )
 }
