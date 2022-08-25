@@ -6,7 +6,7 @@ import photo from '../../images/couch-banner.webp';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const AdvertLinkSection = ({advertAlt, advertHeading, bannerText, advertImg}) => {
+const AdvertLinkSection = ({ advertAlt, advertHeading, bannerText }) => {
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
