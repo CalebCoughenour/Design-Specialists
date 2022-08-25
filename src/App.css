@@ -1,3 +1,23 @@
+/* Styled HR tags */
+
+.styled-hr {
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  height: 1px;
+  background: #dddddd;
+  width: 80%;
+}
+
+.bottom-styled-hr {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  height: 1px;
+  background: #dddddd;
+  width: 80%;
+}
+
 /* Scrollbar styles/effects */
 
 ::-webkit-scrollbar {

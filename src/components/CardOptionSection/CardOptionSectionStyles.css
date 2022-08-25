@@ -10,23 +10,6 @@
   border: 1px solid black;
 }
 
-.option-section-hr {
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 80px;
-  height: 1px;
-  background: #dddddd;
-  width: 80%;
-}
-
-.bottom-option-section-hr {
-  margin: auto;
-  margin-top: 80px;
-  height: 1px;
-  background: #dddddd;
-  width: 80%;
-}
-
 @media screen and (min-width: 992px) {
 
   /* Hover Effects */
