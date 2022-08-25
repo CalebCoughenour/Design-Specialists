@@ -15,11 +15,11 @@ function App() {
       <Router>
         <TopNav />
         <Routes>
-        <Route path='/' exact element={<Home />} />
-        <Route path='/designs' element={<Designs />} />
-        <Route path='/sets' element={<Sets />} />
-        <Route path='/accessories' element={<Accessories />} />
-        <Route path='/about' element={<About />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/designs' element={<Designs />} />
+          <Route path='/sets' element={<Sets />} />
+          <Route path='/accessories' element={<Accessories />} />
+          <Route path='/about' element={<About />} />
         </Routes>
         <BackToTopButton />
         <Footer />
