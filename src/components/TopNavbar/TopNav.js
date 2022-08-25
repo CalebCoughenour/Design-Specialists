@@ -15,7 +15,7 @@ function TopNav() {
             <Nav.Link href="/designs">Designs</Nav.Link>
             <Nav.Link href="/sets">Sets</Nav.Link>
             <Nav.Link href="/accessories">Accessories</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Form className="d-flex">
@@ -25,7 +25,7 @@ function TopNav() {
               className="me-2"
               aria-label="Search"
             />
-            <Button style={{ backgroundColor: 'transparent', border: '1px solid black', color: "#000000"  }}>Search</Button>
+            <Button style={{ backgroundColor: 'transparent',  border: '1px solid black',  color: "#000000"}}>submit</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
