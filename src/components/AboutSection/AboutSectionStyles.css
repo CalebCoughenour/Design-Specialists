@@ -1,0 +1,8 @@
+.about-section-hr {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  height: 1px;
+  background: #dddddd;
+  width: 90%;
+}
