@@ -21,23 +21,23 @@ const Accessories = () => {
               cardImgAlt='String of lights'
               cardTitle='Lights'
               cardPath='/'
-              />
-            </Col>
-            <Col lg={true}>
-              <CardOptionSection
+            />
+          </Col>
+          <Col lg={true}>
+            <CardOptionSection
               cardImg={artImg}
               cardImgAlt='Spiral made out of stained glass'
               cardTitle='Paintings/Art'
               cardPath='/'
-              />
-            </Col>
-            <Col lg={true}>    
-              <CardOptionSection
+            />
+          </Col>
+          <Col lg={true}>    
+            <CardOptionSection
               cardImg={pillowsImg}
               cardImgAlt='Three pillows '
               cardTitle='Pillows'
               cardPath='/'
-              /> 
+            /> 
           </Col>
         </Row>
         <Row>
@@ -47,23 +47,23 @@ const Accessories = () => {
               cardImgAlt='alt'
               cardTitle='Bedding'
               cardPath='/'
-              />
-            </Col>
-            <Col lg={true}>
-              <CardOptionSection
+            />
+          </Col>
+          <Col lg={true}>
+            <CardOptionSection
               cardImg={curtainsImg}
               cardImgAlt='alt'
               cardTitle='Curtains/Shades'
               cardPath='/'
-              />
-            </Col>
-            <Col lg={true}>    
-              <CardOptionSection
+            />
+          </Col>
+          <Col lg={true}>    
+            <CardOptionSection
               cardImg={storageImg}
               cardImgAlt='alt'
               cardTitle='Storage'
               cardPath='/'
-              /> 
+            /> 
           </Col>
         </Row>
         <hr className="bottom-option-section-hr" />
