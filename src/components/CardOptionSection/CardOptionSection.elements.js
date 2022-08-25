@@ -1,10 +1,5 @@
 import styled from "styled-components";
 
-export const CardOptionSect = styled.div`
-  padding: 100px 0;
-  background-color: #dcdcdc;
-`;
-
 export const CardOptionTitle = styled.h1`
   font-size: 200px;
   text-align: center;

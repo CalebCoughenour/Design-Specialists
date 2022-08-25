@@ -1,0 +1,41 @@
+.sets-section {
+  padding: 100px 0;
+  background-color: #dcdcdc;
+}
+
+.section-title {
+  font-size: 200px;
+  text-align: center;
+  font-family: Brush Script MT;
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+  
+  .section-title{
+    font-size: 100px;
+  }
+}
+
+
+@media (max-width: 650px) {
+  
+  .section-title{
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 485px) {
+  
+  .section-title{
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 360px) {
+  
+  .section-title{
+    font-size: 50px;
+  }
+}
