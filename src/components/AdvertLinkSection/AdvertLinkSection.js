@@ -2,9 +2,10 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Card } from 'react-bootstrap';
 import { AdvertSection, AdvertSectionHeading, Img, ImgWrapper, BannerText, BannerTextWrapper } from './AdvertLinkSection.elements';
-import photo from '../../images/couch-banner.webp';
+import photo from '../../images/advert/couch-banner.webp';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import '../../App.css';
 
 const AdvertLinkSection = () => {
 
@@ -31,6 +32,7 @@ const AdvertLinkSection = () => {
               </div>
             </Link>
           </Container>
+          <hr className="bottom-styled-hr" style={{ marginBottom: '0px' }}/>
         </AdvertSection>
     </>
   )

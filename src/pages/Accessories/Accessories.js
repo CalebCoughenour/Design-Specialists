@@ -71,6 +71,7 @@ const Accessories = () => {
           <hr className="bottom-styled-hr" />
         </Container>
       </div>
+      <AdvertLinkSection />
     </>
   )
 }

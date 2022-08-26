@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const AdvertSection = styled.div`
   padding: 50px 50px;
-  /* background-color: #dcdcdc; */
-  background-color: ${({lightBg}) => (lightBg ? '#dcdcdc' : '#aeaeae91')};
+  background-color: #aeaeae91;
 
   @media screen and (max-width: 450px) {
     padding: 100px 0px 100px 0px;
