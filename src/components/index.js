@@ -6,3 +6,4 @@ export { default as CardOptionSection } from './CardOptionSection/CardOptionSect
 export { default as GoToTop } from './GoToTop';
 export { default as AdvertLinkSection } from './AdvertLinkSection/AdvertLinkSection';
 export { default as AboutSection } from './AboutSection/AboutSection';
+export { default as CardLinkComp } from './CardLink/CardLink';
