@@ -70,4 +70,49 @@ export const BannerTextWrapper = styled.div`
   @media screen and (max-width: 600px) {
     height: 70%;
   }
-`
+`;
+
+export const AboutTextSection = styled.div`
+  padding: 100px 0px;
+`;
+
+export const AboutTextTitle = styled.h1`
+  text-align: center;
+  text-decoration: underline;
+
+  @media screen and (max-width: 400px) {
+    font-size: 20px;
+  }
+`;
+
+export const Img = styled.img`
+  margin-right: 20px;
+  float: left;
+
+  @media screen and (max-width: 770px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 40%;
+  }
+`;
+
+export const AboutParagraph = styled.p`
+  margin-left: 5px;
+  font-size: 24px;
+  text-align: left;
+
+  @media screen and (max-width: 770px) {
+    font-size: 20px;
+  }
+`;
+
+export const Video = styled.video`
+  margin-top: 10px;
+  margin-right: 20px;
+  float: left;
+  background: #dcdcdc;
+  width: 50%;
+  height: 50%;
+`;
