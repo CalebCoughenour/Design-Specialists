@@ -6,6 +6,7 @@ import Sets from './pages/Sets/Sets';
 import Designs from './pages/Designs/Designs';
 import About from './pages/About/About';
 import Accessories from './pages/Accessories/Accessories';
+import Contact from './pages/Contact/Contact';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/sets' element={<Sets />} />
           <Route path='/accessories' element={<Accessories />} />
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
         <BackToTopButton />
         <Footer />
