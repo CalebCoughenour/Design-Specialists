@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-export const CardOptionTitle = styled.h1`
-  font-size: 200px;
-  text-align: center;
-  font-family: Brush Script MT;
-
-  @media (max-width: 450px) {
-    font-size: 60px;
-  }
-`
-
 export const CardOverlay = styled.div`
   position: absolute;
   top: 0;
@@ -43,11 +33,6 @@ export const CardText = styled.div`
 export const CardTitle =  styled.h3`
   margin-top: 5px;
   font-weight: 900;
-`
-
-export const CardSubText = styled.p`
-  margin: 0.25em 10px 5px 10px;
-  font-size: 1.2em;
 `
 
 export const CardButton = styled.button`
