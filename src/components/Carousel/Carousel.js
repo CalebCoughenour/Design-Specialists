@@ -1,5 +1,10 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
+import slide1 from '../../images/carousel/bookshelves-lamp-painting-desk.webp';
+import slide2 from '../../images/carousel/bedroom-panoramic.webp';
+import slide3 from '../../images/carousel/couch-pillows-coffee-table.webp';
+import slide4 from '../../images/carousel/desk-with-chair.webp';
+import slide5 from '../../images/carousel/modern-living-room.webp';
 import './CarouselStyles.css';
 import 'react-responsive-carousel/lib/styles/carousel.css';
 
@@ -8,19 +13,19 @@ const PhotoCarousel = () => {
     <>
     <Carousel infiniteLoop autoPlay>
       <div className="carousel-image">
-        <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="first slide" />
+        <img src={slide1} alt="A room decorated with a hanging painting, lamp and some items on a dresser in between two bookshelves" />
       </div>
       <div className="carousel-image">
-        <img src="https://images.pexels.com/photos/115747/pexels-photo-115747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="second slide" />
+        <img src={slide2} alt="second slide" />
       </div>
       <div className="carousel-image">
-        <img src="https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="third slide" />
+        <img src={slide3} alt="third slide" />
       </div>
       <div className="carousel-image">
-        <img src="https://images.pexels.com/photos/198272/pexels-photo-198272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="fourth slide" />
+        <img src={slide4} alt="fourth slide" />
       </div>
       <div className="carousel-image">
-        <img src="https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="fifth slide" />
+        <img src={slide5} alt="fifth slide" />
       </div>
     </Carousel>    
     </>

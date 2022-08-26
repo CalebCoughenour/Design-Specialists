@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
-import { CardLinkComp } from '../index.js';;
+import { CardLinkComp } from '../index.js';
+import card1Img from '../../images/card-link-section/couches-with-lights.webp';
+import card2Img from '../../images/card-link-section/couch-with-pillows.webp';
+import card3Img from '../../images/card-link-section/pink-couch.webp';
 import './CardLinkSectionStyles.css';
 import '../../App.css';
 
@@ -13,8 +16,8 @@ const CardLinkSection = () => {
           <Row>
             <Col lg={true}>
               <CardLinkComp 
-                cardImg='https://images.pexels.com/photos/945688/pexels-photo-945688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                cardImgAlt='blurred image of furniture'
+                cardImg={card1Img}
+                cardImgAlt='A couch and chair with lights dangling above'
                 cardTitle='Designs'
                 cardSubText='Take A Look At All The Different Styles'
                 linkPath='/designs'
@@ -22,20 +25,20 @@ const CardLinkSection = () => {
             </Col>
             <Col lg={true}>
               <CardLinkComp 
-                cardImg='https://images.pexels.com/photos/982614/pexels-photo-982614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                cardImgAlt='blurred image of furniture'
+                cardImg={card2Img}
+                cardImgAlt='A couch that is covered in pillows, with pillows overflowing on to the floor and rug'
                 cardTitle='Accessories'
                 cardSubText='Pillows, Lighting, Decor & More!'
-                linkPath='//accessories'
+                linkPath='/accessories'
               />
             </Col>
             <Col lg={true}>
               <CardLinkComp 
-                cardImg='https://images.pexels.com/photos/895227/pexels-photo-895227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-                cardImgAlt='blurred image of furniture'
+                cardImg={card3Img}
+                cardImgAlt='A pink couch with decorative throw pillows and a mirrow hanging above'
                 cardTitle='Sets'
                 cardSubText='Bedroom, Living Room, Dining Room'
-                linkPath='/designs'
+                linkPath='/sets'
               />
             </Col>
           </Row>
