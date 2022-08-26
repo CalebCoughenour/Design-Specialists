@@ -1,8 +1,18 @@
-.about-section-hr {
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 80px;
-  height: 1px;
-  background: #dddddd;
-  width: 90%;
+.who-we-are-hr {
+  font-family: Segoe Script;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.who-we-are-hr:after {
+  display: inline-block;
+  content: "";
+  height: 2px;
+  background: #00000091;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -2px;
+  margin-left: 10px;
 }

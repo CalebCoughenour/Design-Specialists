@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { AboutSec, Img } from './AboutSection.elements';
-import banner from '../../images/about-banner.webp';
+import { AboutSec, BannerTextWrapper, BannerText } from './AboutSection.elements';
+import banner from '../../images/about/about-banner.webp';
 import './AboutSectionStyles.css';
 
 const AboutSection = () => {
@@ -10,9 +10,15 @@ const AboutSection = () => {
       <AboutSec>
         <Container>
           <Card>
-            <Card.Img src={banner} alt='Two chairs in an office' />
+            <BannerTextWrapper>
+              <BannerText>ABOUT US</BannerText>
+            </BannerTextWrapper>
+            <img src={banner} alt='Two chairs in an office' />
           </Card>
-          <hr className="about-section-hr" />
+          <br></br>
+          <Row>
+          <h2 className="who-we-are-hr">Who we are</h2>
+          </Row>
           <Row>
             <Col md={true}>
               
