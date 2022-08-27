@@ -1,0 +1,10 @@
+@media screen and (min-width: 992px) {
+
+  /* Hover Effects */
+
+  .form-button:hover {
+      background-color: rgba(0, 0, 0, .3);
+      transition: background-color .2s ease-in-out;
+  }
+
+}

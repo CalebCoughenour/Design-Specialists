@@ -1,36 +1,26 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import {
-  MDBInput,
-  MDBCol,
-  MDBRow,
-  MDBCheckbox,
-  MDBBtn
-} from 'mdb-react-ui-kit';
+import { MDBInput, MDBTextArea } from 'mdb-react-ui-kit';
+import { ContactSec, FormTitle, FormButton } from './ContactSection.elements';
+import './ContactSectionStyles.css';
 
 
 const ContactSection = () => {
   return (
     <>
-      <Container>
-        <form>
-          <MDBInput className='mb-4' type='email' id='form1Example1' label='Email address' />
-          <MDBInput className='mb-4' type='password' id='form1Example2' label='Password' />
-
-          <MDBRow className='mb-4'>
-            <MDBCol className='d-flex justify-content-center'>
-              <MDBCheckbox id='form1Example3' label='Remember me' defaultChecked />
-            </MDBCol>
-            <MDBCol>
-              <a href='#!'>Forgot password?</a>
-            </MDBCol>
-          </MDBRow>
-
-          <MDBBtn type='submit' block>
-            Sign in
-          </MDBBtn>
-        </form>
-      </Container>
+      <ContactSec>
+        <Container className='w-50'>
+          <FormTitle>Speak Directly With A Design Specialist</FormTitle>
+          <form>
+            <MDBInput className='mb-4' type='text' placeholder='Name' style={{ width: '40%', float: 'left' }} />
+            <MDBInput className='mb-4' type='email' placeholder='Email Address' style={{ width: '40%', float: 'right' }} />
+            <MDBTextArea placeholder='Enter your message...' rows={4} />
+            <FormButton className='form-button'>
+              Send
+            </FormButton>
+          </form>
+        </Container>
+      </ContactSec>
     </>
   )
 }
